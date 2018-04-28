@@ -1,19 +1,16 @@
-package liliangbin.learn.baidu.ai.coontroller;
+package liliangbin.learn.baidu.ai.controller;
 
 
 import liliangbin.learn.baidu.ai.service.AuthService;
 import liliangbin.learn.baidu.ai.service.OCRTest;
 import liliangbin.learn.baidu.ai.util.BASE64;
-import liliangbin.learn.baidu.ai.util.Base64Util;
 import liliangbin.learn.baidu.ai.util.FileUtil;
 import liliangbin.learn.baidu.ai.util.HttpUtil;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.File;
-import java.net.URL;
 import java.net.URLEncoder;
 
 
